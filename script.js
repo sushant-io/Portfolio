@@ -145,15 +145,19 @@ var maindiv = document.querySelector("#techoverview");
    containers.forEach(function(elem){
    gsap.set(elem, {
   y: 300,
+  opacity:0
 });
     })
     gsap.to(containers,{
     y:0,  
+    opacity:1,
+    duration:0.5,
      stagger:0.1,
     scrollTrigger:{
         trigger:maindiv,
         start:"top 70%",
         end:"bottom 50%", 
+        scrub:true,
     }
    })
 }
