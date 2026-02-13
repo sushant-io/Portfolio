@@ -8,7 +8,7 @@
   <link href="./style.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
   <link href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css" rel="stylesheet" />
-  <style>
+<style>
 #imgconatiner:hover img {
       filter: grayscale(0%);
       transform: scale(1.05);
@@ -16,7 +16,7 @@
   </style>
 </head>
 
-<body class="bg-[#0F172A] overflow-x-hidden">
+<body class="bg-[#0F172A] overflow-x-hidden font-inter ">
 <div id="main" class="bg-[#0F172A] relative">
  <div id="cursor" class="fixed bg-white h-[1vw] w-[1vw] rounded-3xl z-[99]"></div>
  <div id="menu" class="h-[60px] z-[10] fixed w-full  p-2 flex justify-between backdrop-blur-xl items-center sm:hidden  ">
@@ -89,7 +89,7 @@
         </div>
 </div>
 </div>
-<div id="Skills" class="h-screen z-[1] w-full mt-10  px-2 py-5 flex flex-col  items-center  sm:px-10 sm:py-4 sm:justify-center relative ">
+<div id="Skills" class="h-[100dvh] z-[1] w-full mt-10  px-2 py-5 flex flex-col  items-center  sm:px-10 sm:py-4 sm:justify-center relative ">
       <div id="head" class="h-[10%]  w-full sm:h-[20%]">
         <h1 class="text-4xl font-bold text-white uppercase ">Tech Stack</h1>
         <div id="line" class="h-[2px] w-0 bg-white"></div>
@@ -142,7 +142,7 @@
   </div>
       </div>
     </div>
-<div id="Project" class="h-[80vh] z-[1] p-5  w-full relative  flex flex-col justify-center items-center sm:h-[120vh]">
+<div id="Project" class="h-[100dvh] z-[1] p-5  w-full relative  flex flex-col justify-center items-center sm:h-[120vh]">
       <h1 class="text-4xl mb-10 font-bold text-white underline sm:text-6xl ">PROJECTS</h1>
       <div id="containers" class="w-full h-full ">
         <div id="follower"
@@ -173,14 +173,14 @@
         </div>
       </div>
     </div>
-<div id="Contact" class="h-[130vh] w-screen bg-[#0F172A] p-5">
+<div id="Contact" class="h-[130dvh] w-screen bg-[#0F172A] p-5">
       <h2 class="text-5xl text-white font-bold mb-1 mt-10 text-center flex flex-col justify-center items-center">Get in
         Touch</h2>
       <p class="text-xl text-white text-center">Let's connect and collaborate on exciting projects!</p>
-      <div id="Contactcontainers" class="h-[83%] w-full mt-6 flex flex-col justify-center items-center sm:flex sm:flex-row ">
-        <div id="leftcon" class="h-[50%] w-full sm:h-[80%] sm:w-[50%] flex justify-center items-center ">
+      <div id="Contactcontainers" class="h-[90%] w-full mt-6  flex flex-col justify-center items-center sm:flex sm:flex-row ">
+        <div id="leftcon" class="h-[60%] w-full sm:h-[80%] sm:w-[50%] flex justify-center items-center ">
           <form action="https://formspree.io/f/mojwpeky" method="post"
-            class=" h-[100%] w-full sm:w-[70%] bg-white  flex flex-col gap-8 justify-center items-center rounded-2xl shadow-2xl">
+            class=" h-[90%] w-full sm:w-[70%] bg-white  flex flex-col gap-8 justify-center items-center rounded-2xl shadow-2xl">
             <section>
               <h1 class="text-xl font-bold">Name:</h1>
               <input
@@ -200,17 +200,23 @@
                 class="h-[3rem] mt-3 text-xl font-bold  rounded-2xl w-[20rem]  bg-gradient-to-r from-blue-500 to-purple-500 hover:scale-[1.01] active:scale-[0.98]">Submit</button>
           </form>
         </div>
-        <div id="rightcon" class="h-[50%] w-full flex flex-col justify-center items-center gap-6 sm:h-[80%] sm:w-[50%]">
-          <div id="box1" class="h-[8rem] w-[20rem] bg-white shadow-2xs rounded-2xl text-black p-5 ">
-            <h1 class="text-2xl font-extrabold">Email Me:</h1>
-            <h1 class="text-xl font-bold">Sushantsubedi777@gmail.com</h1>
+        <div id="rightcon" class="h-[40%] w-full flex flex-col justify-center items-center gap-6 sm:h-[80%] sm:w-[50%]">
+          <div id="box1" class="h-[20%] w-[100%] sm:h-[8rem] sm:w-[20rem] bg-white shadow-2xs rounded-2xl text-black px-5 py-3 sm:p-5 ">
+            <h1 class="text-[16px] font-bold sm:text-2xl sm:font-extrabold">Email Me:</h1>
+            <h1 class="text-[16px] sm:text-xl font-bold">Sushantsubedi777@gmail.com</h1>
           </div>
-          <div id="box2" class="h-[8rem] w-[20rem] bg-white shadow-2xs rounded-2xl text-black p-5 ">
-            <h1 class="text-2xl font-extrabold">Call Me:</h1>
-            <h1 class="text-xl font-bold">+977 9742543380</h1>
+          <div id="box2" class="h-[20%] w-[100%] sm:h-[8rem] sm:w-[20rem] bg-white shadow-2xs rounded-2xl text-black px-5 py-3 sm:p-5">
+            <h1 class="text-[16px] font-bold sm:text-2xl sm:font-extrabold">Call Me:</h1>
+            <h1 class="text-[16px] sm:text-xl font-bold">+977 9742543380</h1>
           </div>
-          <div id="box3" class="h-[8rem] w-[20rem] bg-white shadow-2xs  rounded-2xl text-black p-5 ">
-            <h1 class="text-2xl font-extrabold">Follow Me:</h1>
+          <div id="box3" class="h-[20%] w-[100%] sm:h-[8rem] sm:w-[20rem] flex gap-2 sm:block bg-white shadow-2xs rounded-2xl text-black px-5 py-3 sm:p-5  ">
+            <h1 class="text-[16px] font-bold sm:text-2xl sm:font-extrabold">Download CV:</h1>
+             <button
+                class="text-[15px] overflow-hidden hover:scale-[1.05] font-medium rounded-2xl px-8 py-3 bg-[gray] flex justify-center items-center gap-1"><i class="ri-file-download-fill"></i><a href="./CV FILE.pdf"
+                  target="_blank" download="SUSHANT-SUBEDI-CV.pdf">DOWNLOAD CV</a></button>
+          </div>
+          <div id="box4" class="h-[20%] w-[100%] sm:h-[8rem] sm:w-[20rem] bg-white shadow-2xs  rounded-2xl text-black px-5 sm:p-5 ">
+            <h1 class="text-[16px] font-bold sm:text-2xl sm:font-extrabold">Follow Me:</h1>
             <div id="buttonofcon" class="flex gap-3 ">
               <button
                 class="text-[14px] overflow-hidden hover:scale-[1.1] font-medium rounded-2xl px-5 py-1 bg-[gray] flex justify-center items-center gap-1"><i
