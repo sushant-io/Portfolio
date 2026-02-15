@@ -8,8 +8,8 @@
   <link href="./style.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
   <link href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css" rel="stylesheet" />
-<style>
-#imgconatiner:hover img {
+  <style>
+    #imgconatiner:hover img {
       filter: grayscale(0%);
       transform: scale(1.05);
     }
@@ -17,33 +17,37 @@
 </head>
 
 <body class="bg-[#0F172A] overflow-x-hidden font-inter ">
-<div id="main" class="bg-[#0F172A] relative">
- <div id="cursor" class="fixed bg-white h-[1vw] w-[1vw] rounded-3xl z-[99]"></div>
- <div id="menu" class="h-[60px] z-[10] fixed w-full  p-2 flex justify-between backdrop-blur-xl items-center sm:hidden  ">
-  <div id="menuleft" class="h-full w-[30%] flex justify-center items-center">
+  <div id="main" class="bg-[#0F172A] relative">
+    <div id="cursor" class="fixed bg-white h-[1vw] w-[1vw] rounded-3xl z-[99]"></div>
+    <div id="menu"
+      class="h-[60px] z-[10] fixed w-full  p-2 flex justify-between backdrop-blur-xl items-center sm:hidden  ">
+      <div id="menuleft" class="h-full w-[30%] flex justify-center items-center">
         <h1 class="header text-xl font-bold text-white sm:text-2xl ">
           < Sushant.\>
         </h1>
       </div>
-  <div id="menuright" class="h-full w-[10rem] flex  justify-end sm:justify-center items-center">
-    <span class="button h-full  w-[50px] rounded-3xl border-white flex justify-center items-center border-2 p-2  text-white text-2xl ">
-        <i class="ri-menu-line"></i>
-      </span>
-  </div>
-</div>
-<div id="menupage" class="h-screen fixed w-full z-[99] bg-black hidden p-2 flex flex-col absolute top-0 left-0 ">
-<div id="closemenu" class="h-[10%] w-full flex justify-end ">
-  <span class="close h-[60px]  w-[50px] rounded-3xl border-white flex justify-center items-center border-2 p-2 text-white text-2xl">
-        <i class="ri-close-line"></i>
-      </span>
-</div>
-<div id="sections" class="h-[90%]  w-full text-5xl flex flex-col gap-10 text-white mt-10 items-center">
-  <a href="#Skills">Skills.</a>
-  <a href="#Project">Projects.</a>
-  <a href="#Contact">Contact.</a>
-</div>
-</div>
-    <div id="nav" class="hidden sm:h-[5rem] sm:w-full sm:relative sm:bg-[#0F172A] sm:pl-8 sm:pr-20 sm:py-3 sm:flex sm:justify-between sm:items-center sm:z-[10] ">
+      <div id="menuright" class="h-full w-[10rem] flex  justify-end sm:justify-center items-center">
+        <span
+          class="button h-full  w-[50px] rounded-3xl border-white flex justify-center items-center border-2 p-2  text-white text-2xl ">
+          <i class="ri-menu-line"></i>
+        </span>
+      </div>
+    </div>
+    <div id="menupage" class="h-screen fixed w-full z-[99] bg-black hidden p-2 flex flex-col absolute top-0 left-0 ">
+      <div id="closemenu" class="h-[10%] w-full flex justify-end ">
+        <span
+          class="close h-[60px]  w-[50px] rounded-3xl border-white flex justify-center items-center border-2 p-2 text-white text-2xl">
+          <i class="ri-close-line"></i>
+        </span>
+      </div>
+      <div id="sections" class="h-[90%]  w-full text-5xl flex flex-col gap-10 text-white mt-10 items-center">
+        <a href="#Skills">Skills.</a>
+        <a href="#Project">Projects.</a>
+        <a href="#Contact">Contact.</a>
+      </div>
+    </div>
+    <div id="nav"
+      class="hidden sm:h-[5rem] sm:w-full sm:relative sm:bg-[#0F172A] sm:pl-8 sm:pr-20 sm:py-3 sm:flex sm:justify-between sm:items-center sm:z-[10] ">
       <div id="left" class="h-full w-[10rem]  flex justify-center items-center">
         <h1 class="headers text-2xl font-bold text-white ">
           < Sushant.\>
@@ -57,9 +61,9 @@
         <a href="#Contact" class="text-xl font-bold">Contact.</a>
       </div>
     </div>
-<div id="page1" class="h-screen  w-full  sm:flex sm:flex-row">
-<div id="pageleft" class="h-[50%] w-full   flex flex-col justify-center items-center px-5 sm:h-screen sm:w-[50%]">
-     <h1 class="text-xl sm:text-2xl font-medium text-[#E5E7EB] text-center w-full mb-6">👋 Hi, I'm Sushant <br>
+    <div id="page1" class="h-screen  w-full  sm:flex sm:flex-row">
+      <div id="pageleft" class="h-[50%] w-full   flex flex-col justify-center items-center px-5 sm:h-screen sm:w-[50%]">
+        <h1 class="text-xl sm:text-2xl font-medium text-[#E5E7EB] text-center w-full mb-6">👋 Hi, I'm Sushant <br>
           🚀 I craft immersive, interactive, and visually stunning web experiences, blending frontend magic, smooth
           animations.</h1>
         <h2 id="highlight"
@@ -68,93 +72,106 @@
         </h2>
         <div id="lower" class=" w-full h-[10vh]  flex gap-5 justify-center items-center">
           <button
-            class="text-xl overflow-hidden hover:scale-[1.1] font-medium rounded-2xl px-5 py-1 bg-[gray] flex justify-center items-center gap-2"><i
-              class="ri-github-fill"></i><a href="https://github.com/Sushant-io"
-              target="_blank">Github</a></button>
+            class="text-[14px] sm:text-xl overflow-hidden hover:scale-[1.1] font-medium rounded-2xl px-5 py-1 bg-[gray] flex justify-center items-center gap-2"><i
+              class="ri-github-fill"></i><a href="https://github.com/Sushant-io" target="_blank">Github</a></button>
           <button
-            class="text-xl overflow-hidden hover:scale-[1.1] font-medium rounded-2xl px-5 py-1 bg-[blue] flex justify-center text-white items-center gap-2"><i
+            class="text-[14px] sm:text-xl overflow-hidden hover:scale-[1.1] font-medium rounded-2xl px-5 py-1 bg-[blue] flex justify-center text-white items-center gap-2"><i
               class="ri-linkedin-box-fill"></i><a href="https://www.linkedin.com/in/sushant-subedi-516505341/"
               target="_blank">Linkedin</a></button>
           <button
-            class="text-xl overflow-hidden hover:scale-[1.1] font-medium rounded-2xl px-5 py-1 bg-[pink] flex justify-center items-center gap-2"><i
+            class="text-[14px] sm:text-xl overflow-hidden hover:scale-[1.1] font-medium rounded-2xl px-5 py-1 bg-[pink] flex justify-center items-center gap-2"><i
               class="ri-instagram-fill"></i><a href="https://www.instagram.com/ig_____sushant/"
               target="_blank">Instagram</a></button>
         </div>
-</div>
-<div id="pageright" class="h-[50%] w-full  flex justify-center items-center sm:h-screen sm:w-[50%]">
- <div id="imgconatiner" class="h-[25rem] w-[20rem] rounded-2xl overflow-hidden ">
+      </div>
+      <div id="pageright" class="h-[50%] w-full  flex justify-center items-center sm:h-screen sm:w-[50%]">
+        <div id="imgconatiner" class="h-[25rem] w-[20rem] rounded-2xl overflow-hidden ">
           <img
             class="h-[100%] w-[100%] rounded-2xl object-fill grayscale  transition-all duration-200 transition-all duration-1000 ease-in-out"
             src="./images/image.png" alt="">
         </div>
-</div>
-</div>
-<div id="Skills" class="h-[100dvh] z-[1] w-full mt-10  px-2 py-5 flex flex-col  items-center  sm:px-10 sm:py-4 sm:justify-center relative ">
+      </div>
+    </div>
+    <div id="Skills"
+      class="h-[100dvh] z-[1] w-full mt-10  px-2 py-5 flex flex-col  items-center  sm:px-10 sm:py-4 sm:justify-center relative ">
       <div id="head" class="h-[10%]  w-full sm:h-[20%]">
         <h1 class="text-4xl font-bold text-white uppercase ">Tech Stack</h1>
         <div id="line" class="h-[2px] w-0 bg-white"></div>
         <h1 class="text-xl text-white font-medium mt-4 text-left ">These are the tech i am proficient at using in Modern
           Website🚀.</h1>
       </div>
-      <div id="techoverview" class="h-[90%] mt-10 p-5 w-full sm:h-[80%] sm:mt-15  sm:w-[90%] sm:gap-y-0  sm:grid-cols-[repeat(6,15vw)] sm:grid-rows-[repeat(6,4vw)]  grid grid-cols-[repeat(3,30vw)] grid-rows-[repeat(4,25vw)] gap-y-10 justify-center items-center">
-      
-  <div class="techcontainer h-[28vw] w-[23vw] border-2 border-white rounded-3xl flex flex-col justify-center items-center gap-3 col-start-1 row-start-1 sm:col-start-1 sm:row-start-1 p-5 sm:h-[12rem] sm:w-[9rem]  sm:rounded-full ">
-    <div class="h-15 w-15 flex items-center justify-center sm:h-25 sm:w-25 ">
-      <img src="./images/html-5-svgrepo-com.svg" class="h-full w-full object-contain" alt="">
-    </div>
-    <h1 class="text-xl sm:text-2xl font-bold uppercase text-white">HTML</h1>
-  </div>
-   <div class="techcontainer h-[28vw] w-[23vw] border-2 border-white rounded-3xl flex flex-col justify-center items-center gap-3 col-start-2 row-start-2 sm:col-start-2 sm:row-start-2 p-5 sm:h-[12rem] sm:w-[9rem]  sm:rounded-full ">
-    <div class="h-15 w-15 flex items-center justify-center sm:h-25 sm:w-25">
-      <img src="./images/css-3-svgrepo-com.svg" class="h-full w-full object-contain" alt="">
-    </div>
-    <h1 class="text-xl font-bold uppercase text-white sm:text-2xl">CSS</h1>
-  </div>
-  <div class="techcontainer h-[28vw] w-[23vw] border-2 border-white rounded-3xl flex flex-col justify-center items-center gap-3 col-start-3 row-start-3 sm:col-start-3 sm:row-start-3 p-5 sm:h-[12rem] sm:w-[9rem]  sm:rounded-full  ">
-    <div class="h-15 w-15 flex items-center justify-center sm:h-25 sm:w-25">
-      <img src="./images/js.png" class="h-full w-full object-contain" alt="">
-    </div>
-    <h1 class="text-xl font-bold uppercase text-white sm:text-2xl">js </h1>
-  </div>
- <div class="techcontainer h-[28vw] w-[23vw] border-2 border-white rounded-3xl flex flex-col justify-center items-center gap-3 col-start-1 row-start-2 sm:col-start-4 sm:row-start-4 p-5 sm:h-[12rem] sm:w-[9rem] sm:rounded-full ">
-    <div class="h-15 w-15 flex items-center justify-center sm:h-25 sm:w-25 ">
-      <img src="./images/tailwind-removebg-preview.png" class="h-full w-full object-contain" alt="">
-    </div>
-    <h1 class="text-[18px] font-bold uppercase text-white sm:text-xl">Tailwind</h1>
-  </div>
-   <div class="techcontainer h-[28vw] w-[23vw] border-2 border-white rounded-3xl flex flex-col justify-center items-center gap-3 col-start-2 row-start-3 sm:col-start-5 sm:row-start-5 p-5 sm:h-[12rem] sm:w-[9rem]  sm:rounded-full ">
-    <div class="h-15 w-15 flex items-center justify-center sm:h-25 sm:w-25">
-      <img src="./images/image-removebg-preview (2).png" class="h-full w-full object-contain" alt="">
-    </div>
-    <h1 class="text-xl font-bold uppercase text-white sm:text-2xl">GSAP</h1>
-  </div>
-  <div class="techcontainer h-[28vw] w-[23vw] border-2 border-white rounded-3xl flex flex-col justify-center items-center gap-3 col-start-3 row-start-4 sm:col-start-6 sm:row-start-6 p-5 sm:h-[12rem] sm:w-[9rem]  sm:rounded-full ">
-    <div class="h-15 w-15 flex items-center justify-center sm:h-25 sm:w-25">
-      <img src="./images/lenis.png" class="h-full w-full object-contain" alt="">
-    </div>
-    <h1 class="text-xl font-bold uppercase text-white sm:text-2xl">Lenis</h1>
-  </div>
-  <div class="techcontainer h-[28vw] w-[23vw] border-2 border-white rounded-3xl flex flex-col justify-center items-center gap-3 col-start-1 row-start-3 sm:col-start-1 sm:row-start-5 p-5 sm:h-[12rem] sm:w-[9rem]  sm:rounded-full ">
-    <div class="h-15 w-15 flex items-center justify-center sm:h-25 sm:w-25">
-      <img src="./images/image-removebg-preview (3).png" class="h-full w-full object-contain" alt="">
-    </div>
-    <h1 class="text-xl font-bold uppercase text-white sm:text-2xl">Github</h1>
-  </div>
+      <div id="techoverview"
+        class="h-[90%] mt-10 p-5 w-full sm:h-[80%] sm:mt-15  sm:w-[90%] sm:gap-y-0  sm:grid-cols-[repeat(6,15vw)] sm:grid-rows-[repeat(6,4vw)]  grid grid-cols-[repeat(3,30vw)] grid-rows-[repeat(4,25vw)] gap-y-10 justify-center items-center">
+
+        <div
+          class="techcontainer h-[28vw] w-[23vw] border-2 border-white rounded-3xl flex flex-col justify-center items-center gap-3 col-start-1 row-start-1 sm:col-start-1 sm:row-start-1 p-5 sm:h-[12rem] sm:w-[9rem]  sm:rounded-full ">
+          <div class="h-15 w-15 flex items-center justify-center sm:h-25 sm:w-25 ">
+            <img src="./images/html-5-svgrepo-com.svg" class="h-full w-full object-contain" alt="">
+          </div>
+          <h1 class="text-xl sm:text-2xl font-bold uppercase text-white">HTML</h1>
+        </div>
+        <div
+          class="techcontainer h-[28vw] w-[23vw] border-2 border-white rounded-3xl flex flex-col justify-center items-center gap-3 col-start-2 row-start-2 sm:col-start-2 sm:row-start-2 p-5 sm:h-[12rem] sm:w-[9rem]  sm:rounded-full ">
+          <div class="h-15 w-15 flex items-center justify-center sm:h-25 sm:w-25">
+            <img src="./images/css-3-svgrepo-com.svg" class="h-full w-full object-contain" alt="">
+          </div>
+          <h1 class="text-xl font-bold uppercase text-white sm:text-2xl">CSS</h1>
+        </div>
+        <div
+          class="techcontainer h-[28vw] w-[23vw] border-2 border-white rounded-3xl flex flex-col justify-center items-center gap-3 col-start-3 row-start-3 sm:col-start-3 sm:row-start-3 p-5 sm:h-[12rem] sm:w-[9rem]  sm:rounded-full  ">
+          <div class="h-15 w-15 flex items-center justify-center sm:h-25 sm:w-25">
+            <img src="./images/js.png" class="h-full w-full object-contain" alt="">
+          </div>
+          <h1 class="text-xl font-bold uppercase text-white sm:text-2xl">js </h1>
+        </div>
+        <div
+          class="techcontainer h-[28vw] w-[23vw] border-2 border-white rounded-3xl flex flex-col justify-center items-center gap-3 col-start-1 row-start-2 sm:col-start-4 sm:row-start-4 p-5 sm:h-[12rem] sm:w-[9rem] sm:rounded-full ">
+          <div class="h-15 w-15 flex items-center justify-center sm:h-25 sm:w-25 ">
+            <img src="./images/tailwind-removebg-preview.png" class="h-full w-full object-contain" alt="">
+          </div>
+          <h1 class="text-[18px] font-bold uppercase text-white sm:text-xl">Tailwind</h1>
+        </div>
+        <div
+          class="techcontainer h-[28vw] w-[23vw] border-2 border-white rounded-3xl flex flex-col justify-center items-center gap-3 col-start-2 row-start-3 sm:col-start-5 sm:row-start-5 p-5 sm:h-[12rem] sm:w-[9rem]  sm:rounded-full ">
+          <div class="h-15 w-15 flex items-center justify-center sm:h-25 sm:w-25">
+            <img src="./images/image-removebg-preview (2).png" class="h-full w-full object-contain" alt="">
+          </div>
+          <h1 class="text-xl font-bold uppercase text-white sm:text-2xl">GSAP</h1>
+        </div>
+        <div
+          class="techcontainer h-[28vw] w-[23vw] border-2 border-white rounded-3xl flex flex-col justify-center items-center gap-3 col-start-3 row-start-4 sm:col-start-6 sm:row-start-6 p-5 sm:h-[12rem] sm:w-[9rem]  sm:rounded-full ">
+          <div class="h-15 w-15 flex items-center justify-center sm:h-25 sm:w-25">
+            <img src="./images/lenis.png" class="h-full w-full object-contain" alt="">
+          </div>
+          <h1 class="text-xl font-bold uppercase text-white sm:text-2xl">Lenis</h1>
+        </div>
+        <div
+          class="techcontainer h-[28vw] w-[23vw] border-2 border-white rounded-3xl flex flex-col justify-center items-center gap-3 col-start-1 row-start-3 sm:col-start-1 sm:row-start-5 p-5 sm:h-[12rem] sm:w-[9rem]  sm:rounded-full ">
+          <div class="h-15 w-15 flex items-center justify-center sm:h-25 sm:w-25">
+            <img src="./images/image-removebg-preview (3).png" class="h-full w-full object-contain" alt="">
+          </div>
+          <h1 class="text-xl font-bold uppercase text-white sm:text-2xl">Github</h1>
+        </div>
       </div>
     </div>
-<div id="Project" class="h-[100dvh] z-[1] p-5  w-full relative  flex flex-col justify-center items-center sm:h-[120vh]">
+    <div id="Project"
+      class="h-[100dvh] z-[1] p-5  w-full relative  flex flex-col justify-center items-center sm:h-[120vh]">
       <h1 class="text-4xl mb-10 font-bold text-white underline sm:text-6xl ">PROJECTS</h1>
       <div id="containers" class="w-full h-full ">
         <div id="follower"
-          class="bg-white w-[30vw] h-[20vw] rounded-2xl z-[10] bg-cover  fixed scale-0  top-0 left-0 pointer-events-none"></div>
+          class="bg-white w-[30vw] h-[20vw] rounded-2xl z-[10] bg-cover  fixed scale-0  top-0 left-0 pointer-events-none">
+        </div>
         <div id="container1" class="container w-full h-[8rem]  border-b-2 gap-8 border-[#E5E7EB] flex items-center">
           <img class="w-[25vw] h-[80%] sm:w-[7rem] rounded-2xl object-cover" src="./images/ramos.png" alt="">
           <a href="https://Sushant-io.github.io/Ramos-clone/" target="_blank"
-            class="text-3xl text-white uppercase sm:text-5xl  font-bold hover:scale-[1.05] transition-all duration-100 ease-in">Ramos Clone</a>
+            class="text-3xl text-white uppercase sm:text-5xl  font-bold hover:scale-[1.05] transition-all duration-100 ease-in">Ramos
+            Clone</a>
         </div>
         <div id="container2" class="container w-full h-[8rem]  border-b-2 gap-8 border-[#E5E7EB] flex items-center">
           <img class="w-[25vw] h-[80%] sm:w-[7rem] rounded-2xl object-cover" src="./images/magma.png" alt="">
-          <a href="https://sushant-io.github.io/Magma-Clone/" target="_blank" class="text-3xl text-white uppercase sm:text-5xl  font-bold hover:scale-[1.05] transition-all duration-100 ease-in">Magma Clone</a>
+          <a href="https://sushant-io.github.io/Magma-Clone/" target="_blank"
+            class="text-3xl text-white uppercase sm:text-5xl  font-bold hover:scale-[1.05] transition-all duration-100 ease-in">Magma
+            Clone</a>
         </div>
         <div id="container3" class="container w-full h-[8rem]  border-b-2 gap-8 border-[#E5E7EB] flex items-center">
           <img class="w-[25vw] h-[80%] sm:w-[7rem] rounded-2xl object-cover" src="./images/Giulia.png" alt="">
@@ -169,15 +186,17 @@
         <div id="container5" class="container w-full h-[8rem]  border-b-2 gap-8 border-[#E5E7EB] flex items-center">
           <img class="w-[25vw] h-[80%] sm:w-[7rem] rounded-2xl object-cover" src="./images/project.png" alt="">
           <a href="https://Sushant-io.github.io/Made-with-gsap/" target="_blank"
-            class="text-3xl text-white uppercase sm:text-5xl  font-bold hover:scale-[1.05] transition-all duration-100 ease-in">GSAP Project</a>
+            class="text-3xl text-white uppercase sm:text-5xl  font-bold hover:scale-[1.05] transition-all duration-100 ease-in">GSAP
+            Project</a>
         </div>
       </div>
     </div>
-<div id="Contact" class="h-[130dvh] w-screen bg-[#0F172A] p-5">
+    <div id="Contact" class="h-[130dvh] w-screen bg-[#0F172A] p-5">
       <h2 class="text-5xl text-white font-bold mb-1 mt-10 text-center flex flex-col justify-center items-center">Get in
         Touch</h2>
       <p class="text-xl text-white text-center">Let's connect and collaborate on exciting projects!</p>
-      <div id="Contactcontainers" class="h-[90%] w-full mt-6  flex flex-col justify-center items-center sm:flex sm:flex-row ">
+      <div id="Contactcontainers"
+        class="h-[90%] w-full mt-6  flex flex-col justify-center items-center sm:flex sm:flex-row ">
         <div id="leftcon" class="h-[60%] w-full sm:h-[80%] sm:w-[50%] flex justify-center items-center ">
           <form action="https://formspree.io/f/mojwpeky" method="post"
             class=" h-[90%] w-full sm:w-[70%] bg-white  flex flex-col gap-8 justify-center items-center rounded-2xl shadow-2xl">
@@ -193,35 +212,40 @@
                 type="email" name="email" placeholder="Your Email" required>
 
               <h1 class="text-xl font-bold">Message:</h1>
-              <textarea class="border border-2 p-3 block text-xl text-[#000000]  border-black rounded-2xl placeholder:font-bold" name="message"
-                id="" cols="32" rows="5" placeholder="Your Message" required></textarea>
+              <textarea
+                class="border border-2 p-3 block text-xl text-[#000000]  border-black rounded-2xl placeholder:font-bold"
+                name="message" id="" cols="32" rows="5" placeholder="Your Message" required></textarea>
             </section>
             <button
-                class="h-[3rem] mt-3 text-xl font-bold  rounded-2xl w-[20rem]  bg-gradient-to-r from-blue-500 to-purple-500 hover:scale-[1.01] active:scale-[0.98]">Submit</button>
+              class="h-[3rem] mt-3 text-xl font-bold  rounded-2xl w-[20rem]  bg-gradient-to-r from-blue-500 to-purple-500 hover:scale-[1.01] active:scale-[0.98]">Submit</button>
           </form>
         </div>
         <div id="rightcon" class="h-[40%] w-full flex flex-col justify-center items-center gap-6 sm:h-[80%] sm:w-[50%]">
-          <div id="box1" class="h-[20%] w-[100%] sm:h-[8rem] sm:w-[20rem] bg-white shadow-2xs rounded-2xl text-black px-5 py-3 sm:p-5 ">
+          <div id="box1"
+            class="h-[20%] w-[100%] sm:h-[8rem] sm:w-[20rem] bg-white shadow-2xs rounded-2xl text-black px-5 py-3 sm:p-5 ">
             <h1 class="text-[16px] font-bold sm:text-2xl sm:font-extrabold">Email Me:</h1>
             <h1 class="text-[16px] sm:text-xl font-bold">Sushantsubedi777@gmail.com</h1>
           </div>
-          <div id="box2" class="h-[20%] w-[100%] sm:h-[8rem] sm:w-[20rem] bg-white shadow-2xs rounded-2xl text-black px-5 py-3 sm:p-5">
+          <div id="box2"
+            class="h-[20%] w-[100%] sm:h-[8rem] sm:w-[20rem] bg-white shadow-2xs rounded-2xl text-black px-5 py-3 sm:p-5">
             <h1 class="text-[16px] font-bold sm:text-2xl sm:font-extrabold">Call Me:</h1>
             <h1 class="text-[16px] sm:text-xl font-bold">+977 9742543380</h1>
           </div>
-          <div id="box3" class="h-[20%] w-[100%] sm:h-[8rem] sm:w-[20rem] flex gap-2 sm:block bg-white shadow-2xs rounded-2xl text-black px-5 py-3 sm:p-5  ">
+          <div id="box3"
+            class="h-[20%] w-[100%] sm:h-[8rem] sm:w-[20rem] flex gap-2 sm:block bg-white shadow-2xs rounded-2xl text-black px-5 py-3 sm:p-5  ">
             <h1 class="text-[16px] font-bold sm:text-2xl sm:font-extrabold">Download CV:</h1>
-             <button
-                class="text-[15px] overflow-hidden hover:scale-[1.05] font-medium rounded-2xl px-8 py-3 bg-[gray] flex justify-center items-center gap-1"><i class="ri-file-download-fill"></i><a href="./CV FILE.pdf"
-                  target="_blank" download="SUSHANT-SUBEDI-CV.pdf">DOWNLOAD CV</a></button>
+            <button
+              class="text-[15px] overflow-hidden hover:scale-[1.05] font-medium rounded-2xl px-8 py-3 bg-[gray] flex justify-center items-center gap-1"><i
+                class="ri-file-download-fill"></i><a href="./CV FILE.pdf" target="_blank"
+                download="SUSHANT-SUBEDI-CV.pdf">DOWNLOAD CV</a></button>
           </div>
-          <div id="box4" class="h-[20%] w-[100%] sm:h-[8rem] sm:w-[20rem] bg-white shadow-2xs  rounded-2xl text-black px-5 sm:p-5 ">
+          <div id="box4"
+            class="h-[20%] w-[100%] sm:h-[8rem] sm:w-[20rem] bg-white shadow-2xs  rounded-2xl text-black px-5 sm:p-5 ">
             <h1 class="text-[16px] font-bold sm:text-2xl sm:font-extrabold">Follow Me:</h1>
             <div id="buttonofcon" class="flex gap-3 ">
               <button
                 class="text-[14px] overflow-hidden hover:scale-[1.1] font-medium rounded-2xl px-5 py-1 bg-[gray] flex justify-center items-center gap-1"><i
-                  class="ri-github-fill"></i><a href="https://github.com/Sushant-io"
-                  target="_blank">Github</a></button>
+                  class="ri-github-fill"></i><a href="https://github.com/Sushant-io" target="_blank">Github</a></button>
               <button
                 class="text-[14px] overflow-hidden hover:scale-[1.1] font-medium rounded-2xl px-5 py-1 bg-[blue] flex justify-center items-center gap-1"><i
                   class="ri-linkedin-box-fill"></i><a href="https://www.linkedin.com/in/sushant-subedi-516505341/"
@@ -235,7 +259,7 @@
         </div>
       </div>
     </div>
-</div>
+  </div>
   <script src="https://unpkg.com/lenis@1.3.17/dist/lenis.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"
     integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA=="
