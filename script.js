@@ -292,3 +292,39 @@ function tooglemenu(){
   })
 }
 tooglemenu();
+function loading(){
+    let loader = document.querySelector(".line");
+    let mainline = document.querySelector(".liner")
+    let loadertext = document.querySelector(".loadertext")
+var text = loadertext.textContent
+var letters = text.split("")
+var clutter = ""
+for (var i=0; i<letters.length;i++){
+clutter  += `<span class="inline-block">${letters[i]}</span>`
+}
+loadertext.innerHTML = clutter
+var spans = document.querySelectorAll(".loadertext span")
+    gsap.from(spans,{
+        y:10,
+        stagger:0.1,
+        repeat:-1
+    })
+
+    gsap.to(loader,{
+        width:"100%",
+        duration:4,
+       ease: "expo.inOut",
+        onComplete:function(){
+            var landingpage = document.querySelector("#loadingpage")
+            gsap.to(landingpage,{
+                y:"-100%",
+                duration:1,
+                onComplete:function(){
+                    landingpage.classList.add("hidden");
+                }
+            })
+
+        }
+    })
+}
+loading();

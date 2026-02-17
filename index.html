@@ -40,6 +40,8 @@
       filter: grayscale(0%);
       transform: scale(1.05);
     }
+  
+
   </style>
   <script type="application/ld+json">
 {
@@ -62,10 +64,19 @@
 
 <body class="bg-[#0F172A] overflow-x-hidden font-inter ">
   <div id="main" class="bg-[#0F172A] relative">
+    <div id="loadingpage" class="bg-black h-[100dvh] w-screen fixed z-[99] px-5 py-3">
+      <div id="loader" class="h-[50%] w-full flex justify-center items-end">
+        <div class="liner h-[.5rem] w-[60%] border-1 overflow-hidden border-white relative ">
+          <div class="line h-full w-[0%] bg-white"></div>
+        </div>
+      </div>
+      <div id="loadertext" class="h-[50%] w-full flex justify-center mt-3">
+        <h1 class="loadertext text-[50px] text-white font-bold">Loading.....</h1>
+      </div>
+    </div>
     <div id="cursor" class="fixed bg-white h-[1vw] w-[1vw] rounded-3xl z-[99]"></div>
-    <div id="menu"
-      class="h-[60px] z-[10] fixed w-full  p-2 flex justify-between backdrop-blur-xl items-center sm:hidden  ">
-      <div id="menuleft" class="h-full w-[30%] flex justify-center items-center">
+    <div id="menu"class="h-[60px] z-[10] fixed w-full  p-2 flex justify-between sm:backdrop-blur-xl items-center sm:hidden  ">
+      <div id="menuleft" class="h-full w-[40%] flex justify-center items-center">
         <h1 class="header text-xl font-bold text-white sm:text-2xl ">
           < Sushant.\>
         </h1>
@@ -106,7 +117,7 @@
       </div>
     </div>
     <div id="page1" class="h-screen  w-full  sm:flex sm:flex-row">
-      <div id="pageleft" class="h-[50%] w-full   flex flex-col justify-center items-center px-5 sm:h-screen sm:w-[50%]">
+      <div id="pageleft" class="h-[60%] w-full   flex flex-col justify-center items-center px-5 sm:h-screen sm:w-[50%]">
         <h1 class="text-xl sm:text-2xl font-medium text-[#E5E7EB] text-center w-full mb-6">👋 Hi, I'm Sushant <br>
           🚀 I craft immersive, interactive, and visually stunning web experiences, blending frontend magic, smooth
           animations.</h1>
@@ -128,7 +139,7 @@
               target="_blank">Instagram</a></button>
         </div>
       </div>
-      <div id="pageright" class="h-[50%] w-full  flex justify-center items-center sm:h-screen sm:w-[50%]">
+      <div id="pageright" class="h-[40%] w-full  flex justify-center items-center sm:h-screen sm:w-[50%]">
         <div id="imgconatiner" class="h-[25rem] w-[20rem] rounded-2xl overflow-hidden ">
           <img
             class="h-[100%] w-[100%] rounded-2xl object-fill grayscale  transition-all duration-200 transition-all duration-1000 ease-in-out"
